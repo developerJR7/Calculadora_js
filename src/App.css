@@ -1,0 +1,19 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 72px);
+  grid-template-rows: repeat(5, 72px);
+  gap: 32px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . igual igual";
+}
+
+.igual {
+  grid-area: igual;
+}
+
+
